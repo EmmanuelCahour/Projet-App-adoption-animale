@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+%project=meugnon_sqitch
+
+
+meugnon_init 2022-08-01T16:43:39Z Etudiant O'clock <student@teleporter> # create tables
+seeding 2022-08-01T16:43:39Z Etudiant O'clock <student@teleporter> # Seeding all necessary datas for tests

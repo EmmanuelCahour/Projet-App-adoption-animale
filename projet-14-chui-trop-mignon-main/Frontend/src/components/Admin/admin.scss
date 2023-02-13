@@ -1,0 +1,49 @@
+@media (min-width:801px)  {
+  .admin-body-border{
+    width: 30%;
+    padding: 2%;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .admin-body-border{
+    width: 60%;
+    padding: 5%;
+  }
+}
+
+.admin-page {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.admin-list-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.admin-section {
+  margin-top: 10px;
+  margin-bottom: 1%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.admin-body-border{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDD5B1;
+  border: solid 1px rgba(212, 211, 211, 0.322);
+  border-radius: 50px;
+  margin: auto;
+  margin-bottom: 2%;
+
+}

@@ -1,0 +1,55 @@
+@media (max-width: 800px) {
+  .assocName {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Mouse Memoirs', sans-serif;
+    margin: auto;  
+  }
+
+  .logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: 0% 30%;
+    border-radius: 50%;
+  }
+
+  .header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  }
+}
+
+@media (min-width:801px)  {
+  .assocName {
+    text-align: center;
+    font-size: 4rem;  
+    font-family: 'Mouse Memoirs', sans-serif;
+    margin: auto;
+
+  }
+  
+  .logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 0% 30%;
+    border-radius: 50%;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #FF8C00;
+  color: black;
+  height: 8%;
+  padding: 1.5%;
+}
+
+
+
+

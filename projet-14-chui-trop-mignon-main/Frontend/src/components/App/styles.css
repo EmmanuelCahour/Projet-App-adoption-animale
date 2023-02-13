@@ -1,0 +1,45 @@
+
+@media (min-width:801px)  {
+  .app {
+    height: 100%;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  body {
+    height: 100%;
+
+  }
+ }
+
+@media (max-width: 800px) {
+  .app {
+    height: 100%;
+  }
+
+  body {
+    height: 65vh;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    place-items: center;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: bisque;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+
+.body {
+  /* font-family: 'Kanit', sans-serif; */
+  background-color: bisque;
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+.meugnon {
+  margin-top: 10px;
+}

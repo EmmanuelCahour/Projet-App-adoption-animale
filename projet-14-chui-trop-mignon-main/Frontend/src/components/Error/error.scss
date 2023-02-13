@@ -1,0 +1,33 @@
+.error404-div {
+  background-image: url('https://i.pinimg.com/originals/a9/a7/f8/a9a7f8da7218f2a9b4f2a0be48a06779.gif');
+  background-size: cover;
+  
+  height: 100vh;
+  padding:0;
+  margin:0;
+
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.error404-p {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+  color: #FFA000;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.error404-p2 {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: #FF8C00;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+

@@ -1,0 +1,70 @@
+@media (min-width:801px)  {
+  .home-list-title {
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 1%;
+    font-family: 'Mouse Memoirs', sans-serif;
+  }
+
+  .home-list-clic {
+    font-size: 2.8rem;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+  }
+  
+
+}
+
+@media (max-width: 800px) {
+  .home-list-title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    margin: 4%;
+  }
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-list {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.home-list-image-container {
+  position: relative;
+}
+
+.home-list-image {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 0% 30%;
+  border-radius: 50%;
+}
+
+.home-list-image-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 5rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 35px;
+  text-align: center;
+  color: orange;
+  // visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.home-list-image-description:hover {
+  visibility: visible;
+  opacity: 1;
+}

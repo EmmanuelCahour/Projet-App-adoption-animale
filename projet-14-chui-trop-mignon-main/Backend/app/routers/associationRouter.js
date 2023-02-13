@@ -1,0 +1,1 @@
+// routes relatives a l'entitée association

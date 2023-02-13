@@ -1,0 +1,27 @@
+@media (min-width:801px)  {
+  .overview-title {
+    font-size: 3rem;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .overview-title {
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+  }
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+

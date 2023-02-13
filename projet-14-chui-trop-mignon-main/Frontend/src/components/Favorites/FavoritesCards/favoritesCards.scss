@@ -1,0 +1,119 @@
+@media (min-width:801px)  {
+  .favorite-card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: solid 1px #FFA000;
+    padding: 1%;
+    margin: 1% 0 3% 0;
+    background-color: #FDD5B1 ;
+  }
+
+  .favorite-card-description {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .favorite-card-content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: justify;
+  }
+
+  .favorite-card-link-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 65%;
+    font-size: 1.4rem;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .favorite-card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: solid 1px #FFA000;
+    margin: 3% 0 3% 0;
+    background-color: #FDD5B1;
+  }
+
+  .favorite-card-description {
+    margin-top: 10px;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .favorite-card-content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+  }
+
+  .favorite-card-link-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 65%;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .favorite-delete-button {
+    margin-bottom: 10px;
+  }
+}
+
+.favorite-card-img {
+    max-height: 180px;
+    max-width: 450px;
+    object-fit: cover;
+    object-position: 0% 30%;
+}
+
+.favorite-card-title {
+  font-size: 2rem;
+  text-decoration: underline;
+  font-family: 'Mouse Memoirs', sans-serif;
+  text-align: center;
+}
+
+.favorite-card-age {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.favorite-card-link {
+
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.favorite-delete-button {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  padding: 2% 4%;
+  border: 2px solid;
+  border-color: rgb(160, 86, 1);
+  border-radius: 5px;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+}
+
